@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jayqiu.daigou</groupId>
+	<artifactId>daigou</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>daigou</name>
+	<description>聚合服务</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>daigou-coupon</module>
+		<module>daigou-member</module>
+		<module>daigou-order</module>
+		<module>daigou-product</module>
+		<module>daigou-warehouse</module>
+	</modules>
+</project>
